@@ -1,0 +1,23 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "tests Hexlet",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitry1178/tests-hexlet.git\".git"
+  },
+  "author": "Dmitry Nesterov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitry1178/tests-hexlet.git\"/issues"
+  },
+  "homepage": "https://github.com/dmitry1178/tests-hexlet.git\"#readme" 
+}
