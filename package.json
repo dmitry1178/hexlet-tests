@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/dmitry1178/tests-hexlet.git\"/issues"
   },
-  "homepage": "https://github.com/dmitry1178/tests-hexlet.git\"#readme" 
+  "homepage": "https://github.com/dmitry1178/tests-hexlet.git\"#readme",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }, "//": "mocha is our preference, but you can use any test runner you like"  
 }
