@@ -5,10 +5,10 @@
   "description": "tests Hexlet",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+    "test": "babel-node --presets power-assert ./test/capitalize.test.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,21 @@
   },
   "homepage": "https://github.com/dmitry1178/tests-hexlet.git\"#readme",
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-power-assert": "^3.0.0",
     "chai": "*",
-    "mocha": "*"
-  }, "//": "mocha is our preference, but you can use any test runner you like"  
+    "intelli-espower-loader": "^1.1.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0",
+    "power-assert": "^1.6.1"
+  },
+  "//": "mocha is our preference, but you can use any test runner you like"
 }
